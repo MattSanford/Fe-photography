@@ -132,7 +132,9 @@
 
 /* back arrow */
 .anythingSlider-default .back { left: 0; }
+.anythingSlider-default .back a:before { content: "{"; }
 .anythingSlider-default .back a { background-position: left top; }
+.anythingSlider-default .back a:after { content: "{"; }
 .anythingSlider-default .back a:hover,
 .anythingSlider-default .back a.hover { background-position: left -140px; }
 /* forward arrow */
