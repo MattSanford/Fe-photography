@@ -50,6 +50,10 @@ width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2%;
+	max-height: 100%;
+	height: 550px;
+	max-width: 100%;
+	width: 950px; 
 	}
 
 	.thumbnail-wrap {
@@ -78,7 +82,7 @@ width: 100%;
 		-moz-border-radius: 5px;
 		-webkit-filter: grayscale(100%);
 		-webkit-animation: colortoblack;
-		-webkit-animation-duration: 2.5s;
+		-webkit-animation-duration: .5s;
 		-webkit-animation-timing-function: ease-in;
 		-webkit-filter: grayscale(100%);
 		}
@@ -110,8 +114,6 @@ width: 100%;
 		-webkit-animation-duration: .5s;
 		-webkit-animation-timing-function: ease-in;
 		-webkit-filter: grayscale(0%);
-		-webkit-animation-delay: 1s;
-		color: white;
 		}
 		
 				@-webkit-keyframes blacktocolor {
@@ -128,6 +130,26 @@ width: 100%;
 
 				}
 
+		.portfolio-thumbnail:hover> span {
+
+			-webkit-animation: marginslide;
+			-webkit-animation-duration: .5s;
+			-webkit-animation-timing-function: ease-out;
+			margin-top: -250px;
+		}
+
+			@-webkit-keyframes marginslide {
+
+				from {
+					margin-top: -15px;
+				}
+
+				to {
+					margin-top: -250px;
+
+				}
+			}
+
 		.portfolio-thumbnail span {
 		font-size: 36px;
 		font-family: 'Allura', cursive;
@@ -135,7 +157,25 @@ width: 100%;
 		display: inline-block;
 		margin-top: -15px;
 	    text-shadow:0px 2px 11px #ffe3ba;
+	    -webkit-animation: marginslidedown;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-timing-function: ease-out;
+		margin-top: -15px;
 		}
+
+			@-webkit-keyframes marginslidedown {
+
+				from {
+					margin-top: -250px;
+				}
+
+				to {
+					margin-top: -15px;
+
+				}
+			}		
+
+
 		
 	.webform {
 	height: 800px;

@@ -2,6 +2,15 @@
 <head>
 <link rel="stylesheet" href="/css/style.css" />
 <link href='http://fonts.googleapis.com/css?family=Allura|Pinyon+Script' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<link rel="stylesheet" href="css/anythingslider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.anythingslider.js"></script>
+<link rel="stylesheet" href="css/theme-metallic.css" type="text/css" media="screen" />
+<script type="text/javascript">
+$(function(){
+ $('#slider').anythingSlider(); // add any non-default options here
+});
+</script>
 </head>
 <body>
 	<div class="container">
@@ -15,6 +24,12 @@
 				</nav>
 			</header>
 			<div class="main">
+			 <ul id="slider">
+  <li><img src="/images/huntersharlow.jpg"></li>
+  <li><img src="/images/couples.jpg" /></li>
+  <li><img src="/images/senior.jpg"></li>
+  <li><img src="/images/wedding.jpg"></li>
+ </ul>		
 			</div>
 		<footer></footer>
 	</div>
