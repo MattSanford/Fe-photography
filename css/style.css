@@ -4,6 +4,18 @@ a:-webkit-any-link {
 	text-decoration: none;
 }
 
+@font-face {
+	font-family: DancingScript;
+	src: url('/fonts/Dancing-Script.otf');
+	src: url('/fonts/Dancing-Script.ttf');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: ElegantHandwriting;
+	src: url('/fonts/elegant/JandaElegantHandwriting.ttf');
+}
+
 body {
 margin: 0;
 }
@@ -56,32 +68,61 @@ width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2%;
-	max-height: 100%;
-	height: 550px;
 	max-width: 100%;
-	width: 950px; 
+	text-align: center;
+	font-family: 'Allura', cursive;
+
 	}
 
-		.top {
-	
-			font-size: 150px;
-			position: absolute;
-			top: 50%;
-			z-index: 5;
-			color: black;
-			}
+	.quick-look-wrap{
+		margin: inherit;
+		max-width: 100%;
+	}
+	.quick-look {
+		margin-left: 2%;
+		margin-right: 2%;
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		font-size: 24px;
+		-moz-box-shadow:inset 0px 1px 11px #2e2e2e;
+		-webkit-box-shadow:inset 0px 1px 11px #2e2e2e;
+		box-shadow:inset 0px 1px 11px #2e2e2e;
+		padding: 15px;
+		border-radius: 5px;
+	}
 
-		.left:after {
-			content: "}";
-			right: 5%;
-			float: right;
-		}
+	.quick-look > .signiture {
+		font-family: 'Allura', cursive;
+		text-shadow: 0px 1px 0px rgba(0, 0, 0, .5);
+		font-size: 54px;
+		display: inline-block;
+		margin: 5px;
+	}
 
-		.right:after {
-			content: "{";
-			left: 5%;
 
-		}
+
+	.q-l-c {
+		margin-top: -25px;
+	}
+
+	.contact-phone a{
+		color: #CC0000;
+	}
+
+	.contact-phone:before {
+		content: "Phone number: ";
+		color: black;
+	}
+
+	.contact-email {
+		color: #CC0000;
+	}
+
+	.contact-email:before {
+		content:"E-mail: ";
+		color: black;
+	}
 
 	.thumbnail-wrap {
 	margin-left: auto;

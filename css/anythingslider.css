@@ -10,8 +10,8 @@
  *****************************/
 /* change the ID & dimensions to match your slider */
 #slider {
-	width: 600px;
-	height: 390px;
+	width: 950px;
+	height: 550px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
@@ -132,9 +132,7 @@
 
 /* back arrow */
 .anythingSlider-default .back { left: 0; }
-.anythingSlider-default .back a:before { content: "{"; }
 .anythingSlider-default .back a { background-position: left top; }
-.anythingSlider-default .back a:after { content: "{"; }
 .anythingSlider-default .back a:hover,
 .anythingSlider-default .back a.hover { background-position: left -140px; }
 /* forward arrow */

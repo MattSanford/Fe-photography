@@ -14,6 +14,9 @@
 		return "Panel #" + index; // This would have each tab with the text 'Panel #X' where X = index
 	}
 */
+
+
+
 ;(function($) {
 
 	$.anythingSlider = function(el, options) {
@@ -804,7 +807,7 @@
 		// Appearance
 		theme               : "metallic", // Theme name, add the css stylesheet manually
 		mode                : "horiz",   // Set mode to "horizontal", "vertical" or "fade" (only first letter needed); replaces vertical option
-		expand              : true,     // If true, the entire slider will expand to fit the parent element
+		expand              : false,     // If true, the entire slider will expand to fit the parent element
 		resizeContents      : true,      // If true, solitary images/objects in the panel will expand to fit the viewport
 		showMultiple        : false,     // Set this value to a number and it will show that many slides at once
 		easing              : "swing",   // Anything other than "linear" or "swing" requires the easing plugin or jQuery UI
@@ -840,7 +843,7 @@
 		// Navigation
 		startPanel          : 1,         // This sets the initial panel
 		changeBy            : 1,         // Amount to go forward or back when changing panels.
-		hashTags            : true,      // Should links change the hashtag in the URL?
+		hashTags            : false,      // Should links change the hashtag in the URL?
 		infiniteSlides      : true,      // if false, the slider will not wrap & not clone any panels
 		navigationFormatter : null,      // Details at the top of the file on this use (advanced use)
 		navigationSize      : false,     // Set this to the maximum number of visible navigation tabs; false to disable
