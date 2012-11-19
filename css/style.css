@@ -1,6 +1,6 @@
 
-a:-webkit-any-link {
-	color: black;
+a {
+	color: #CC0000;
 	text-decoration: none;
 }
 
@@ -14,27 +14,33 @@ a:-webkit-any-link {
 @font-face {
 	font-family: ElegantHandwriting;
 	src: url('/fonts/elegant/JandaElegantHandwriting.ttf');
+	font-weight: normal;
+}
+
+p {
+	margin: 0;
 }
 
 body {
 margin: 0;
+font-family: 'Allura' cursive;
+
 }
 
 .container {
-background-image: url("/images/bedge_grunge.png");
+background-image: url("/images/dev-images/bedge_grunge.png");
 height: auto;
-min-height: 1000px;
-width: 100%;
-
+font-weight: normal;
 }
 
 	header {
 	height: auto;
 	}
 
-	.signiture {
+	.signature {
 	font-family: 'Allura', cursive;
 	font-size: 50px;
+	font-weight: normal;
 	display: inline;
 	}
 
@@ -44,14 +50,14 @@ width: 100%;
 	display: inline-block;
 	}
 		#top-nav a:hover {
-			color: #CC0000;
+			color: #CC0000 !important;
 		}
 
 	.tns{	
 	font-family: 'Allura', cursive;
 	font-size: 50px;	
 	text-decoration: none;
-	color: black;
+	color: black !important;
 	height: 30px;
 	width:40px;
 	margin-right: 15px;
@@ -71,12 +77,16 @@ width: 100%;
 	max-width: 100%;
 	text-align: center;
 	font-family: 'Allura', cursive;
-
+	clear: both;
 	}
 
 	.quick-look-wrap{
-		margin: inherit;
-		max-width: 100%;
+		margin: 2% 0 0 0;
+		background-image: url('/images/dev-images/pattern-bv5m.png');
+		-moz-box-shadow:inset 1px 4px 16px #2e2e2e;
+		-webkit-box-shadow:inset 1px 4px 16px #2e2e2e;
+		box-shadow:inset 1px 4px 16px #2e2e2e;
+
 	}
 	.quick-look {
 		margin-left: 2%;
@@ -85,14 +95,11 @@ width: 100%;
 		vertical-align: top;
 		text-align: left;
 		font-size: 24px;
-		-moz-box-shadow:inset 0px 1px 11px #2e2e2e;
-		-webkit-box-shadow:inset 0px 1px 11px #2e2e2e;
-		box-shadow:inset 0px 1px 11px #2e2e2e;
 		padding: 15px;
 		border-radius: 5px;
 	}
 
-	.quick-look > .signiture {
+	.quick-look > .signature {
 		font-family: 'Allura', cursive;
 		text-shadow: 0px 1px 0px rgba(0, 0, 0, .5);
 		font-size: 54px;
@@ -197,12 +204,21 @@ width: 100%;
 					}
 
 				}
-
+				
 		.portfolio-thumbnail:hover> span {
 
 			-webkit-animation: marginslide;
 			-webkit-animation-duration: .5s;
 			-webkit-animation-timing-function: ease-out;
+			animation: blacktored;
+			animation-duration: .5s;
+			animation-timing-function: ease-out;
+			-moz-animation: blacktored;
+			-moz-animation-duration: .5s;
+			-moz-animation-timing-function: ease-out;
+			-o-animation: marginslide;
+			-o-animation-duration: .5s;
+			-o-animation-timing-function: ease-out;									
 			margin-top: -250px;
 		}
 
@@ -217,6 +233,39 @@ width: 100%;
 
 				}
 			}
+			@keyframes blacktored {
+
+				from {
+					color: #000;
+				}
+
+				to {
+					color: #CC0000;
+
+				}
+			}
+			@-moz-keyframes blacktored {
+
+				from {
+					color: #000;
+				}
+
+				to {
+					color: #CC0000;
+
+				}
+			}			
+			@-o-keyframes marginslide {
+
+				from {
+					margin-top: -15px;
+				}
+
+				to {
+					margin-top: -250px;
+
+				}
+			}						
 
 		.portfolio-thumbnail span {
 		font-size: 36px;
@@ -226,10 +275,20 @@ width: 100%;
 		margin-top: -15px;
 	    text-shadow:0px 2px 11px #ffe3ba;
 	    -webkit-animation: marginslidedown;
-		-webkit-animation-duration: .5s;
+		-webkit-animation-duration: 1s;
 		-webkit-animation-timing-function: ease-out;
+	    animation: marginslidedown;
+		animation-duration: 1s;
+		animation-timing-function: ease-out;
+	    -moz-animation: redtoblack;
+		-moz-animation-duration: 1s;
+		-moz-animation-timing-function: ease-out;
+	    -o-animation: marginslidedown;
+		-o-animation-duration: 1s;
+		-o-animation-timing-function: ease-out;
+
 		margin-top: -15px;
-		color: #CC0000;
+		color: #000;
 		}
 
 			@-webkit-keyframes marginslidedown {
@@ -242,7 +301,39 @@ width: 100%;
 					margin-top: -15px;
 
 				}
-			}		
+			}
+			@keyframes marginslidedown {
+
+				from {
+					margin-top: -250px;
+				}
+
+				to {
+					margin-top: -15px;
+
+				}
+			}	
+			@-moz-keyframes redtoblack {
+				from {
+					color: #CC0000;
+				}
+
+				to {
+					color: #000;
+
+				}
+			}	
+			@-o-keyframes marginslidedown {
+
+				from {
+					margin-top: -250px;
+				}
+
+				to {
+					margin-top: -15px;
+
+				}
+			}												
 
 
 		
@@ -266,6 +357,47 @@ width: 100%;
 		}
 		
 	footer {
-	bottom: 1px;
-	position: absolute;
+		color: #CC0000;
+		font-family: 'Allura', cursive;
+		font-size: 24px;
+		text-align: center; 
+		position: relative;
+		background-image: url('/images/dev-images/debut_dark.png');
+		min-height: 50px;
+		margin-bottom: 0;
+		}
+
+		.bottom-nav {
+			word-spacing: 15px;
+			text-transform: capitalize;
+			font-family: 'Allura' cursive;
+
+		}
+		.bottom-nav a:hover {
+			word-spacing: 25px;
+			font-size: 28px;
+		}
+
+		.t-handle, .t-handle a {
+			color:#CC0000;
+			margin:0;
+			font-family: 'Allura' cursive;
+
+		}
+		.t-handle:before {
+			content: "Design by: ";
+			color: #fff;
+		}
+
+
+
+
+	/*=========================Media Queries====================*/
+		@media all and (max-width: 1200px){
+		header{
+			text-align: center;
+		}
+		#top-nav {
+			float: none;
+		}
 	}

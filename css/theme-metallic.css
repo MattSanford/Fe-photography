@@ -6,14 +6,22 @@
   SET DEFAULT DIMENSIONS HERE
  *****************************/
 /* change the ID & dimensions to match your slider */
+
 #slider {
-	width: 950px;
 	height: 550px;
+	width: 950px; 
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
 	overflow-x: hidden;
 }
+
+		@media all and (max-width: 1200px){
+			#slider {
+				height: 450px;
+				width: 750px;
+			}
+		}
 
 /******************
   SET STYLING HERE
