@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <html> 
 <head id="head">
 <?php echo $pageTitle; ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
 <link rel="stylesheet" href="/css/style.css" />
 <link href='http://fonts.googleapis.com/css?family=Allura|Pinyon+Script' rel='stylesheet' type='text/css'>
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
@@ -18,6 +18,5 @@
 					<a class="tns" href="/">About |</a>
 					<a class="tns" href="/portfolio">Portfolio |</a>
 					<a class="tns" href="#">Prices |</a>
-					<a class="tns" href="/contact/">Contact</a>		
 				</nav>
 			</header>

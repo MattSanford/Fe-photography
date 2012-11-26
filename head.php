@@ -1,7 +1,7 @@
+<?php echo $doctype;?>
 <html> 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="description" content="Felicia Noelle Photography is a personal, customizable, service, for special occassions and events in the greater Richmond area.">
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/style.css" />
@@ -25,7 +25,6 @@ $(function(){
 				<nav id="top-nav">
 					<a class="tns" href="/">About |</a>
 					<a class="tns" href="/portfolio">Portfolio |</a>
-					<a class="tns" href="#">Prices |</a>
-					<a class="tns" href="/contact">Contact</a>		
+					<a class="tns" href="/prices">Prices |</a>
 				</nav>
 			</header>

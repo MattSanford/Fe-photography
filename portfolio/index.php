@@ -1,4 +1,5 @@
 <?php include('../head.php'); ?>
+<?php $doctype="<DOCTYPE html>"?>
 		<div class="main">
 			<div class="thumbnail-wrap">
 				<div class="portfolio-thumbnail">

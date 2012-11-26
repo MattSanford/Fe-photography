@@ -1,4 +1,4 @@
-	<footer>
+	<footer class="foot">
 		<nav class="bottom-nav">
 			<a href="#">text</a>
 			<a href="#">text</a>

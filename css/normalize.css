@@ -20,11 +20,15 @@ nav,
 section,
 summary {
     display: block;
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+
 }
 
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
+ 
 
 audio,
 canvas,
@@ -130,33 +134,34 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2.85em;
     margin: 0.83em 0;
 }
 
 h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
+    font-size: 2.50em;
+    margin: .5em 0;
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 2em;
     margin: 1.33em 0;
 }
 
 h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0;
+    font-size: 1.75em;
+    margin: .5em 0;
 }
 
 h6 {
-    font-size: 0.75em;
+    font-size: 1.5em;
     margin: 2.33em 0;
 }
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     font-weight: normal;
 }
 /*
