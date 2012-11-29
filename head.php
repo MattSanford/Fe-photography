@@ -5,6 +5,7 @@
 <meta name="description" content="Felicia Noelle Photography is a personal, customizable, service, for special occassions and events in the greater Richmond area.">
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Raleway+Dots' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Allura|Pinyon+Script' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 <link rel="stylesheet" href="/css/anythingslider.css" type="text/css" media="screen" />

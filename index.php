@@ -8,7 +8,7 @@
  				</ul>	
  				<div class="quick-look-wrap">	
  				<div class="quick-look">
- 					<span class="signiture">Testimonials</span>
+ 					<h2>Testimonials</h2>
  					<div class="q-l-c">
  						<ul>
 						   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
@@ -20,11 +20,11 @@
  					</div>
  				</div>
  				 <div class="quick-look">
- 					<span class="signature">Contact Me</span>
+ 					<h2>Contact Me</h2>
  					<div class="q-l-c">
- 						<h3 class="contact-phone"><a href="wtai://wp/mc;18045179340">1-804-517-9340</a></h3>
- 						<h3 class="contact-email">Felicia@webmail.com</h3>
- 						<h3>Check out my <a href="#" target="blank">Facebook</a> page</h3>
+ 						<h4 class="contact-phone"><a href="wtai://wp/mc;18045179340">1-804-517-9340</a></h4>
+ 						<h4 class="contact-email">Felicia@webmail.com</h4>
+ 						<h4>Check out my <a href="#" target="blank">Facebook</a> page</h4>
  					</div>
  				</div>
  			</div>

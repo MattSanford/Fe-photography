@@ -5,18 +5,18 @@
 			<h1 class="signature">newborn</h1>
 			<h3></h3>
 			<ul class="main-list list">
-				<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
-					<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
 				<li><h2>$100</h2>
@@ -27,18 +27,18 @@
 			<h1 class="signature">senior pictures</h1>
 			<h3></h3>
 			<ul class="main-list list">
-				<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
-					<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
 				<li><h2>$200</h2>
@@ -49,18 +49,18 @@
 			<h1 class="signature">weddings</h1>
 						<h3></h3>
 			<ul class="main-list list">
-				<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
-					<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
 				<li><h2>$500</h2>
@@ -71,18 +71,18 @@
 			<h1 class="signature">couples</h1>
 						<h3></h3>
 			<ul class="main-list list">
-				<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
-					<li><h5>main-item</h5>
+				<li><h3>main-item</h3>
 					<ul class="sub-list list">
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
-						<li><p>sub-item</p></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
+						<li><h4>sub-item</h4></li>
 					</ul>
 				</li>
 				<li><h2>$100</h2>

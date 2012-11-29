@@ -4,6 +4,7 @@
 <?php echo $pageTitle; ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="/css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Raleway+Dots' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Allura|Pinyon+Script' rel='stylesheet' type='text/css'>
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <link rel="stylesheet" href="/css/galleria.classic.css">

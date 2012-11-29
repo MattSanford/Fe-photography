@@ -147,8 +147,8 @@
 .anythingSlider-metallic .back a:hover,
 .anythingSlider-metallic .back a.hover { background-position: left top; }
 .anythingSlider-metallic .back a:after { 
-	content: "{"; 
-	font-size: 150px;
+	content: "<"; 
+	font-size: 100px;
 	color: #8C1717;
 }
 
@@ -158,8 +158,8 @@
 .anythingSlider-metallic .forward a:hover,
 .anythingSlider-metallic .forward a.hover { background-position: right top; }
 .anythingSlider-metallic .forward a:after { 
-	content: "}"; 
-	font-size: 150px;
+	content: ">"; 
+	font-size: 100px;
 	color: #8C1717;
 }
 
