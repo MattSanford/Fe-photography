@@ -23,6 +23,7 @@
 				</li>		
 			</ul>
 		</section>	
+		<div id="golden-tix">
 		<section class="price-tix" id="senior-tix">
 			<h1 class="signature">senior pictures</h1>
 			<h3></h3>
@@ -67,7 +68,8 @@
 				</li>		
 			</ul>
 		</section>
-				<section class="price-tix" id="couples-tix">
+		</div>
+		<section class="price-tix" id="couples-tix">
 			<h1 class="signature">couples</h1>
 						<h3></h3>
 			<ul class="main-list list">

@@ -7,27 +7,25 @@
  					 <li><img src="/images/fe-images/wedding.jpg"></li>
  				</ul>	
  				<div class="quick-look-wrap">	
- 				<div class="quick-look">
- 					<span class="signiture">Testimonials</span>
- 					<div class="q-l-c">
- 						<ul>
-						   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-						   <li>Aliquam tincidunt mauris eu risus.</li>
-						   <li>Vestibulum auctor dapibus neque.</li>
-						   <li>Vestibulum auctor dapibus neque.</li>
-						   <li>Vestibulum auctor dapibus neque.</li>
-						</ul>
- 					</div>
+ 					<section class="quick-look testimonials">
+ 						<h1 class="signiture">Testimonials</h1>
+ 						<section class="q-l-c">
+ 							<ul>
+							   <li><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. -Human</p></li>
+							   <li><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. -Human</p></li>
+							   <li><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. -Human</p></li>
+							</ul>
+ 						</section>
+ 					</section>
+ 					<section class="quick-look">
+ 						<h1 class="signature">Contact Me</h1>
+ 						<section class="q-l-c">
+ 							<h5 class="contact-phone"><a href="wtai://wp/mc;18045179340">1-804-517-9340</a></h5>
+ 							<h5 class="contact-email">Felicia@webmail.com</h5>
+ 							<h5>Check out my <a href="#" target="blank">Facebook</a> page</h5>
+ 						</section>
+ 					</section>
  				</div>
- 				 <div class="quick-look">
- 					<span class="signature">Contact Me</span>
- 					<div class="q-l-c">
- 						<h3 class="contact-phone"><a href="wtai://wp/mc;18045179340">1-804-517-9340</a></h3>
- 						<h3 class="contact-email">Felicia@webmail.com</h3>
- 						<h3>Check out my <a href="#" target="blank">Facebook</a> page</h3>
- 					</div>
- 				</div>
- 			</div>
 			</div>
 	</div>
 <?php include('footer.php');?>

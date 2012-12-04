@@ -310,6 +310,10 @@ font-weight: normal;
 			margin-left: -2em;		
 		}
 
+		#golden-tix {
+			display: inline-block;
+		}
+
 			.price-tix h1{
 				background: #c1bca8; /* Old browsers */
 				background: -moz-linear-gradient(top,  #c1bca8 0%, #c1ac59 100%); /* FF3.6+ */
@@ -533,11 +537,16 @@ font-weight: normal;
 
 
 	/*=========================Media Queries====================*/
+
+
 		@media all and (max-width: 1200px){
 		header{
 			text-align: center;
 		}
 		#top-nav {
 			float: none;
+		}
+		#golden-tix {
+			display: inline-block;
 		}
 	}
