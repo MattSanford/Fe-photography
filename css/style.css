@@ -84,7 +84,8 @@ font-weight: normal;
 	max-width: 100%;
 	min-height: 800px;
 	text-align: center;
-	font-family: 'Allura', cursive;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
 	clear: both;
 	}
 
@@ -108,18 +109,12 @@ font-weight: normal;
 		border-radius: 5px;
 	}
 
-	.quick-look > .signature {
-		font-family: 'Allura', cursive;
-		text-shadow: 0px 1px 0px rgba(0, 0, 0, .5);
-		font-size: 54px;
-		display: inline-block;
-		margin: 5px;
-	}
 
-	.quick-look h1{
-		margin-bottom: .5em!important;
+	.quick-look h2{
+	margin-top: 5px;
+	margin-bottom: 10px;
 	}
-
+	
 	.testimonials {
 		font-size: 28px;	
 		max-width: 400px;
@@ -358,7 +353,6 @@ font-weight: normal;
 		background-image: url('/images/dev-images/pattern-bv5m.png');
 		border-radius-top: 3px;
 		text-align: left;
-		font-size: 28px;
 		padding: 20px;
 		-moz-box-shadow:inset 1px 4px 16px #2e2e2e;
 		-webkit-box-shadow:inset 1px 4px 16px #2e2e2e;
@@ -366,7 +360,6 @@ font-weight: normal;
 	}		
 
 		.after-gallery h1 {
-			font-size: 32px;
 			text-transform: capitalize;
 			margin: 0 0 10px 0;
 		}

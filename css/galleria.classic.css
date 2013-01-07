@@ -217,23 +217,13 @@
 .galleria-carousel .galleria-thumb-nav-right {
     display: block;
 }
-
+.galleria-image-nav-right,
+.galleria-thumb-nav-left,
+.galleria-image-nav-left,
+.galleria-thumb-nav-right,
 .galleria-info-link,
-.galleria-info-close,
+.galleria-info-close
  {
-    background-image: url(classic-map.png);
+    background-image: url('classic-map.png');
     background-repeat: no-repeat;
-}
-.galleria-image-nav-left:after {
-    content: "{";
-    font-size: 88px;
-}
-.galleria-image-nav-right:{
-    content: "}";
-    font-size: 88px;
-}
-.galleria-image-nav-right:after,
-.galleria-thumb-nav-right:after {
-    content: "}";
-    font-size: 88px;
 }
