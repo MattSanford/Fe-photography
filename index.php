@@ -8,7 +8,7 @@
  				</ul>	
  				<div class="quick-look-wrap">	
  					<section class="quick-look testimonials">
- 						<h1 class="signiture">Testimonials</h1>
+ 						<h1 class="signature">Testimonials</h1>
  						<section class="q-l-c">
  							<ul>
 							   <li><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. -Human</p></li>
