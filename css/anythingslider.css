@@ -10,8 +10,8 @@
  *****************************/
 /* change the ID & dimensions to match your slider */
 #slider {
-	width: 950px;
-	height: 550px;
+	width: 960px;
+	height: 540px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;

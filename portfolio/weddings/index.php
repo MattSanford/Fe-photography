@@ -3,9 +3,24 @@
 
 			<div class="main">
 				<section id="galleria">
-					<img src="/images/fe-images/huntersharlow.jpg">
-					<img src="/images/fe-images/couples.jpg">	
-					<img src="/images/fe-images/Senior.jpg">	
+					<img src="/images/fe-images/weddings/1.jpg">
+					<img src="/images/fe-images/weddings/2.jpg">
+					<img src="/images/fe-images/weddings/3.jpg">
+					<img src="/images/fe-images/weddings/4.jpg">
+					<img src="/images/fe-images/weddings/5.jpg">
+					<img src="/images/fe-images/weddings/6.jpg">	
+					<img src="/images/fe-images/weddings/7.jpg">
+					<img src="/images/fe-images/weddings/8.jpg">
+					<img src="/images/fe-images/weddings/9.jpg">
+					<img src="/images/fe-images/weddings/10.jpg">
+					<img src="/images/fe-images/weddings/11.jpg">	
+					<img src="/images/fe-images/weddings/12.jpg">
+					<img src="/images/fe-images/weddings/13.jpg">
+					<img src="/images/fe-images/weddings/14.jpg">
+					<img src="/images/fe-images/weddings/15.jpg">
+					<img src="/images/fe-images/weddings/16.jpg">
+					<img src="/images/fe-images/weddings/17.jpg">
+					<img src="/images/fe-images/weddings/18.jpg">
 					<script>
    					Galleria.loadTheme('../galleria/themes/classic/galleria.classic.min.js'); 
     				Galleria.run('#galleria');
@@ -13,7 +28,7 @@
 				</section>
 				<article class="after-gallery">
 					<h1>wedding pictures</h1>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					<p>The merging of two lives is one of life's many beauties. Let me be there to capture all of the smiles, hugs, kisses, tears of joy, all of it. Many photographers are obtrusive and disturb the flow of the ceremony, I pride myself on my ability to capture the best moments of your wedding while being as inconspicuous as possible. I don't bring tons of equipment to clutter up your ceremony, I know how to utilize the tools I have in a way that captures the same quality without the use of backdrops and additional lighting. </p>
 				</article>									
 			</div>
 <?php include('../../footer.php');?>

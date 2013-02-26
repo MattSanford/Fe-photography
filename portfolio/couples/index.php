@@ -12,7 +12,7 @@
 				</section>
 				<article class="after-gallery">
 					<h1>couples pictures</h1>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					<p>Couples shoots always bring a smile to my face. I love to be a part of capturing the love between two people and immortalizing that in a picture. My main focus is of course to get good pictures, but I also make sure that I make the shoot specific to you and your significant other. We can go to your favorite spot in Carytown, go deep into the city, travel to some open fields in Ashland; wherever you and your love want to capture a moment. </p>
 				</article>				
 			</div>
 <?php include('../../footer.php'); ?>

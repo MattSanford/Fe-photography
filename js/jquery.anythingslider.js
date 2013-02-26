@@ -814,7 +814,7 @@
 
 		buildArrows         : true,      // If true, builds the forwards and backwards buttons
 		buildNavigation     : false,      // If true, builds a list of anchor links to link to each panel
-		buildStartStop      : true,      // ** If true, builds the start/stop button
+		buildStartStop      : false,      // ** If true, builds the start/stop button
 
 /*
 		// commented out as this will reduce the size of the minified version
