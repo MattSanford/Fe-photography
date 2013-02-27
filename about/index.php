@@ -1,4 +1,4 @@
-<?php include ("head.php"); ?>
+<?php include ("../head.php"); ?>
 	<div class="main">
 		<section class="b-card">
 			<div class="circular">
@@ -10,4 +10,4 @@
 			<div class="clear-fix"></div>
 		</section>
 	</div>
-<?php include("footer.php"); ?>
+<?php include("../footer.php"); ?>

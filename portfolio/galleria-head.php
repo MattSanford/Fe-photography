@@ -27,7 +27,7 @@
 				<h1 class="signature"><a href="/">Felicia Noelle Photography</a></h1>&nbsp;&copy;
 				<nav id="top-nav">
 					<a class="tns" href="/">Home |</a>
-					<a class="tns" href="/aboutme.php">About |</a>
+					<a class="tns" href="/about">About |</a>
 					<a class="tns" href="/portfolio">Portfolio |</a>
 					<a class="tns" href="/prices">Prices |</a>
 					<a class="tns" href="/contact">Contact</a>
