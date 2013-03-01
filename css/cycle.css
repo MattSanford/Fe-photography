@@ -34,10 +34,10 @@
   height: 100%;
 }
 .cycle.xfade .item {
-  -webkit-transition: 0.5s ease-in opacity;
-  -moz-transition: 0.5s ease-in opacity;
-  -o-transition: 0.5s ease-in opacity;
-  transition: 0.5s ease-in opacity;
+  -webkit-transition: 1.5s ease-in opacity;
+  -moz-transition: 1.5s ease-in opacity;
+  -o-transition: 1.5s ease-in opacity;
+  transition: 1.5s ease-in opacity;
   position: absolute;
   width: 100%;
   opacity: 0;
@@ -52,10 +52,10 @@
   opacity: 0;
 }
 .cycle.slide.xfade .item {
-  -webkit-transition: 0.5s ease-in-out left, 0.5s ease-in opacity;
-  -moz-transition: 0.5s ease-in-out left, 0.5s ease-in opacity;
-  -o-transition: 0.5s ease-in-out left, 0.5s ease-in opacity;
-  transition: 0.5s ease-in-out left, 0.5s ease-in opacity;
+  -webkit-transition: 1.5s ease-in-out left, 1.5s ease-in opacity;
+  -moz-transition: 1.5s ease-in-out left, 1.5s ease-in opacity;
+  -o-transition: 1.5s ease-in-out left, 1.5s ease-in opacity;
+  transition: 1.5s ease-in-out left, 1.5s ease-in opacity;
 }
 .cycle.slide .item {
   -webkit-transition: 0.8s ease-in-out left;
@@ -109,10 +109,10 @@
   height: 100%;
 }
 .cycle.slide.down .item {
-  -webkit-transition: 0.5s ease-in-out top;
-  -moz-transition: 0.5s ease-in-out top;
-  -o-transition: 0.5s ease-in-out top;
-  transition: 0.5s ease-in-out top;
+  -webkit-transition: 1.5s ease-in-out top;
+  -moz-transition: 1.5s ease-in-out top;
+  -o-transition: 1.5s ease-in-out top;
+  transition: 1.5s ease-in-out top;
 }
 .cycle.slide.down .item.next,
 .cycle.slide.down .item.prev {
@@ -135,19 +135,19 @@
   top: -100%;
 }
 .cycle.slide.down.xfade .item {
-  -webkit-transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
-  -moz-transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
-  -o-transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
-  transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
+  -webkit-transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
+  -moz-transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
+  -o-transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
+  transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
 }
 .cycle.slide.up .cycle-inner {
   height: 100%;
 }
 .cycle.slide.up .item {
-  -webkit-transition: 0.5s ease-in-out top;
-  -moz-transition: 0.5s ease-in-out top;
-  -o-transition: 0.5s ease-in-out top;
-  transition: 0.5s ease-in-out top;
+  -webkit-transition: 1.5s ease-in-out top;
+  -moz-transition: 1.5s ease-in-out top;
+  -o-transition: 1.5s ease-in-out top;
+  transition: 1.5s ease-in-out top;
 }
 .cycle.slide.up .item.next,
 .cycle.slide.up .item.prev {
@@ -170,10 +170,10 @@
   top: 100%;
 }
 .cycle.slide.up.xfade .item {
-  -webkit-transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
-  -moz-transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
-  -o-transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
-  transition: 0.5s ease-in-out top, 0.5s ease-in opacity;
+  -webkit-transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
+  -moz-transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
+  -o-transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
+  transition: 1.5s ease-in-out top, 1.5s ease-in opacity;
 }
 .cycle-control {
   position: absolute;

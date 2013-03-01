@@ -37,16 +37,18 @@ p {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000361}}
 body {
+  background-image: url("/images/dev-images/bedge_grunge.png");
   margin: 0;
   overflow-x: hidden;
+  height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000368}}
 label {
   margin: 1% 0 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000373}}
 textarea {
   resize: none;
   height: 100px;
@@ -58,53 +60,59 @@ textarea {
   border-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000381}}
 input {
   padding: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000385}}
 h1, h2, h3, h4, h5 {
   font-family: "Josefin Sans", sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000389}}
 .coming-soon {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000392}}
-.container {
-  background-image: url("/images/dev-images/bedge_grunge.png");
-  font-weight: normal;
-  min-height: 500px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000394}}
+.social {
+  float: left;
+  margin: 0 0 0 2%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\0000399}}
+.container {
+  font-weight: normal;
+  padding-top: 10px;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003105}}
 header {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003109}}
 .signature {
   font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
   font-weight: normal;
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003115}}
 .signature a {
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003120}}
 #top-nav {
   float: right;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003125}}
 .tns {
   font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
@@ -116,13 +124,13 @@ header {
   margin-right: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003136}}
 .tns:nth-child(4) {
   border: none;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003141}}
 .main {
   margin: 2% auto 0;
   text-align: center;
@@ -131,7 +139,7 @@ header {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003150}}
 .quick-look-wrap {
   margin: 2% 0 0 0;
   background-image: url("/images/dev-images/pattern-bv5m.png");
@@ -141,7 +149,7 @@ header {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003159}}
 .b-card {
   background-image: url("/images/dev-images/norwegian_rose.png");
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 8px 8px 0 inset, rgba(0, 0, 0, 0.3) 0 -8px 8px 0 inset;
@@ -154,22 +162,22 @@ header {
   border-color: black;
   padding: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003168}}
 .b-card aside {
   padding: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003170}}
 .b-card aside h1 {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003174}}
 .b-card aside p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003181}}
 .circular {
   float: left;
   height: 400px;
@@ -187,7 +195,7 @@ header {
   margin: 1em 3em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003197}}
 .quick-look {
   margin-left: 4%;
   margin-right: 4%;
@@ -202,7 +210,7 @@ header {
   border-radius: 5px;
   border-color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003206}}
 .quick-look .signature {
   font-family: "Josefin Sans", sans-serif;
   font-size: 54px;
@@ -211,26 +219,26 @@ header {
   display: inline-block;
   margin: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003213}}
 .quick-look h1 {
   margin-bottom: 0.5em !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003218}}
 .slide {
   padding: 1%;
   border-right: 1px solid black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003223}}
 .testimonials {
   width: 44.44444%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003226}}
 .testimonials h1 {
   margin: 0, 0, 10px, 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003230}}
 .testimonials ul, .testimonials p {
   list-style-type: none;
   display: inline-block;
@@ -238,34 +246,34 @@ header {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003238}}
 .q-l-c {
   margin-top: -25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003242}}
 .contact-phone a {
   color: #CC0000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003246}}
 .contact-phone:before {
   content: "Phone number: ";
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003251}}
 .contact-email {
   color: #CC0000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003255}}
 .contact-email:before {
   content: "E-mail: ";
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003260}}
 .thumbnail-wrap {
   margin-left: auto;
   margin-right: auto;
@@ -274,7 +282,7 @@ header {
   padding: 2% 0 2% 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003268}}
 .portfolio-thumbnail {
   background-color: #ffdeb5;
   padding: 2px;
@@ -285,7 +293,7 @@ header {
   opacity: 0.95;
   margin: 3% 5% 3% 5%;
   vertical-align: top;
-  text-align: left;
+  text-align: center;
   -moz-box-shadow: 0px 10px 47px black;
   -webkit-box-shadow: 0px 10px 47px black;
   box-shadow: 0px 10px 47px black;
@@ -299,14 +307,14 @@ header {
   -webkit-animation-timing-function: ease-in;
   -webkit-filter: grayscale(100%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003283}}
-.portfolio-thumbnail span {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003289}}
+.portfolio-thumbnail h2 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 36px;
+  font-size: 1.8em;
   text-align: left;
-  position: absolute;
   display: block;
-  margin-top: -15px;
+  text-align: center;
+  margin-top: 5px;
   text-shadow: 0px 2px 11px #ffe3ba;
   -webkit-animation: margin-slide-down;
   /*==============Span slides down onload and*/
@@ -324,22 +332,22 @@ header {
   animation-timing-function: ease-out;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003310}}
 .portfolio-thumbnail img {
   height: 100%;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003318}}
 -webkit-keyframes colortoblack from {
   -webkit-filter: grayscale(0%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003322}}
 -webkit-keyframes colortoblack to {
   -webkit-filter: grayscale(100%);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003329}}
 .portfolio-thumbnail:hover {
   opacity: 1;
   -moz-box-shadow: 0px 10px 54px black;
@@ -350,8 +358,8 @@ header {
   -webkit-animation-timing-function: ease-in;
   -webkit-filter: grayscale(0%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003333}}
-.portfolio-thumbnail:hover:hover > span {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003339}}
+.portfolio-thumbnail:hover:hover > h2 {
   -webkit-animation: margin-slide;
   -webkit-animation-duration: .5s;
   -webkit-animation-timing-function: ease-out;
@@ -368,14 +376,14 @@ header {
   color: #CC0000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003357}}
 .tix-wrap, .price-tix {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003363}}
 .tix-wrap {
   background-image: url("/images/dev-images/norwegian_rose.png");
   -moz-box-shadow: inset 1px 4px 16px #2e2e2e;
@@ -383,7 +391,7 @@ header {
   box-shadow: inset 1px 4px 16px #2e2e2e;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003370}}
 .price-tix {
   background-image: url("/images/dev-images/pattern-bv5m.png");
   max-width: 450px;
@@ -403,7 +411,7 @@ header {
   border-radius: 5px;
   border-color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003385}}
 .price-tix h1 {
   background: #c1bca8;
   /* Old browsers */
@@ -432,13 +440,13 @@ header {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003405}}
 #newborn-tix {
   margin-top: 2em;
   margin-right: -2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003410}}
 #senior-tix {
   z-index: 2;
   -moz-box-shadow: 0px 10px 10px black;
@@ -447,7 +455,7 @@ header {
   min-height: 450px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003418}}
 #weddings-tix {
   z-index: 2;
   -moz-box-shadow: 0px 10px 10px black;
@@ -456,18 +464,18 @@ header {
   min-height: 450px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003426}}
 #couples-tix {
   margin-top: 2em;
   margin-left: -2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003431}}
 #golden-tix {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003435}}
 #couples-tix h1, #newborn-tix h1 {
   background: #f9f9f9;
   /* Old browsers */
@@ -487,24 +495,24 @@ header {
   /* IE6-9 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003447}}
 .list, .list h1, .list h2, .list h5 {
   margin: 10px 0 0 0;
   list-style-type: none;
   padding: 0 5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003452}}
 .list .total, .list h1 .total, .list h2 .total, .list h5 .total {
   border-top: 1px solid black;
   padding-top: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003459}}
 .clear-fix {
-  clear: left;
+  clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003463}}
 .after-gallery {
   background-image: url("/images/dev-images/pattern-bv5m.png");
   -webkit-border-radius: 5px;
@@ -519,14 +527,14 @@ header {
   -webkit-box-shadow: inset 1px 4px 16px #2e2e2e;
   box-shadow: inset 1px 4px 16px #2e2e2e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003472}}
 .after-gallery h1 {
   font-size: 32px;
   text-transform: capitalize;
   margin: 0 0 10px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003473}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003479}}
 .contact, .how {
   background-image: url("/images/dev-images/pattern-bv5m.png");
   font-family: "Josefin Sans", sans-serif;
@@ -542,28 +550,28 @@ header {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003491}}
 .contact h2, .how h2 {
   text-transform: capitalize;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003495}}
 .contact p, .how p {
   font-size: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003500}}
 .top-input {
   display: block;
   margin: 0.5% 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003505}}
 .required:after {
   content: "*";
   color: red;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003510}}
 #submit {
   background: #6d0019;
   background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
@@ -581,7 +589,7 @@ header {
   margin-top: .5%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003525}}
 #submit:hover {
   background: #a90329;
   background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
@@ -593,7 +601,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003537}}
 :required {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -601,163 +609,309 @@ header {
   border-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003543}}
 .foot {
   color: #CC0000;
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   text-align: center;
-  position: relative;
   background-image: url("/images/dev-images/debut_dark.png");
-  min-height: 50px;
   margin-bottom: 0;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003551}}
+.foot aside {
+  float: left;
+  margin-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003557}}
 .bottom-nav {
   word-spacing: 15px;
   text-transform: capitalize;
   font-family: "Josefin Sans", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003555}}
-.t-handle, .t-handle a {
-  color: #CC0000;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003569}}
+.t-handle, .t-handle a, .t-handle:before {
+  color: #666666;
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 24px;
+  font-size: 1em;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003574}}
+.t-handle:hover, .t-handle a:hover, .t-handle:before:hover {
+  color: #cc0000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003578}}
 .t-handle:before {
   content: "Design by: ";
-  color: #fff;
-  font-size: 24px;
 }
 
 /*===============================animations======================*/
 @-webkit-keyframes blacktocolor {
-  /* line 573, ../sass/style.scss */
+  /* line 585, ../sass/style.scss */
   from {
     -webkit-filter: grayscale(100%);
   }
 
-  /* line 577, ../sass/style.scss */
+  /* line 589, ../sass/style.scss */
   to {
     -webkit-filter: grayscale(0%);
   }
 }
 
 @-webkit-keyframes margin-slide {
-  /* line 588, ../sass/style.scss */
+  /* line 599, ../sass/style.scss */
   from {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 
-  /* line 592, ../sass/style.scss */
+  /* line 603, ../sass/style.scss */
   to {
     margin-top: -250px;
   }
 }
 
 @-moz-keyframes margin-slide {
-  /* line 600, ../sass/style.scss */
+  /* line 599, ../sass/style.scss */
   from {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 
-  /* line 604, ../sass/style.scss */
+  /* line 603, ../sass/style.scss */
   to {
     margin-top: -250px;
   }
 }
 
 @-o-keyframes margin-slide {
-  /* line 610, ../sass/style.scss */
+  /* line 599, ../sass/style.scss */
   from {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 
-  /* line 614, ../sass/style.scss */
+  /* line 603, ../sass/style.scss */
   to {
     margin-top: -250px;
   }
 }
 
 @keyframes margin-slide {
-  /* line 620, ../sass/style.scss */
+  /* line 599, ../sass/style.scss */
   from {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 
-  /* line 624, ../sass/style.scss */
+  /* line 603, ../sass/style.scss */
   to {
     margin-top: -250px;
   }
 }
 
 @-webkit-keyframes margin-slide-down {
-  /* line 633, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   from {
     margin-top: -250px;
   }
 
-  /* line 637, ../sass/style.scss */
+  /* line 629, ../sass/style.scss */
   to {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 }
 
 @-moz-keyframes margin-slide-down {
-  /* line 644, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   from {
     margin-top: -250px;
   }
 
-  /* line 648, ../sass/style.scss */
+  /* line 629, ../sass/style.scss */
   to {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 }
 
 @-o-keyframes margin-slide-down {
-  /* line 655, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   from {
     margin-top: -250px;
   }
 
-  /* line 659, ../sass/style.scss */
+  /* line 629, ../sass/style.scss */
   to {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 }
 
 @keyframes margin-slide-down {
-  /* line 666, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   from {
     margin-top: -250px;
   }
 
-  /* line 670, ../sass/style.scss */
+  /* line 629, ../sass/style.scss */
   to {
-    margin-top: -15px;
+    margin-top: 5px;
   }
 }
 
 /*=========================Media Queries====================*/
+@media all and (min-width: 1500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003657}}
+  .portfolio-thumbnail {
+    height: 400px;
+    width: 600px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003661}}
+  .portfolio-thumbnail:hover > h2 {
+    margin-top: -650px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003664}}
+  .portfolio-thumbnail h2 {
+    -webkit-animation: margin-slide-down;
+    /*==============Span slides down onload and*/
+    -webkit-animation-duration: 1s;
+    /*===============when :hover is not activated*/
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation: margin-slide-down;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-out;
+    -o-animation: margin-slide-down;
+    -o-animation-duration: 1s;
+    -o-animation-timing-function: ease-out;
+    animation: margin-slide-down;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  @-webkit-keyframes margin-slide-down {
+    /* line 625, ../sass/style.scss */
+    from {
+      margin-top: 650px;
+    }
+
+    /* line 629, ../sass/style.scss */
+    to {
+      margin-top: 5px;
+    }
+}
+
+  @-moz-keyframes margin-slide-down {
+    /* line 625, ../sass/style.scss */
+    from {
+      margin-top: 650px;
+    }
+
+    /* line 629, ../sass/style.scss */
+    to {
+      margin-top: 5px;
+    }
+}
+
+  @-o-keyframes margin-slide-down {
+    /* line 625, ../sass/style.scss */
+    from {
+      margin-top: 650px;
+    }
+
+    /* line 629, ../sass/style.scss */
+    to {
+      margin-top: 5px;
+    }
+}
+
+  @keyframes margin-slide-down {
+    /* line 625, ../sass/style.scss */
+    from {
+      margin-top: 650px;
+    }
+
+    /* line 629, ../sass/style.scss */
+    to {
+      margin-top: 5px;
+    }
+}
+
+  @-webkit-keyframes margin-slide {
+    /* line 599, ../sass/style.scss */
+    from {
+      margin-top: 650px;
+    }
+
+    /* line 603, ../sass/style.scss */
+    to {
+      margin-top: -250px;
+    }
+}
+
+  @-moz-keyframes margin-slide {
+    /* line 599, ../sass/style.scss */
+    from {
+      margin-top: 650px;
+    }
+
+    /* line 603, ../sass/style.scss */
+    to {
+      margin-top: -250px;
+    }
+}
+
+  @-o-keyframes margin-slide {
+    /* line 599, ../sass/style.scss */
+    from {
+      margin-top: 650px;
+    }
+
+    /* line 603, ../sass/style.scss */
+    to {
+      margin-top: -250px;
+    }
+}
+
+  @keyframes margin-slide {
+    /* line 599, ../sass/style.scss */
+    from {
+      margin-top: 5px;
+    }
+
+    /* line 603, ../sass/style.scss */
+    to {
+      margin-top: 650px;
+    }
+}
+}
 @media all and (max-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003710}}
   header {
     text-align: center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003685}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003713}}
   #top-nav {
     float: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003688}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003716}}
   #golden-tix {
     display: inline-block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003719}}
+  .quick-look {
+    float: none;
+    margin: 2% auto 0;
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/Sites\/fe-photography\/sass\/style\.scss}line{font-family:\00003724}}
+  .slide {
+    border: none;
   }
 }

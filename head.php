@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html> 
 <head>
+<?php echo $pageTitle; ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="description" content="Felicia Noelle Photography is a personal, customizable, service, for special occassions and events in the greater Richmond area.">
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/style.css" />
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="/css/anythingslider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/css/theme-metallic.css" type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/css/cycle.css">
+<link rel="stylesheet" type="text/css" href="/css/social-buttons.css">
 <!--[if lt IE 9]>
 <script src="/dist/html5shiv.js"></script>
 <![endif]-->
@@ -42,3 +43,4 @@ $(function(){
 					<a class="tns" href="/contact">Contact</a>
 				</nav>
 			</header>
+

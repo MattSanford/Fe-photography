@@ -24,7 +24,39 @@
 					<script>
    					Galleria.loadTheme('../galleria/themes/classic/galleria.classic.min.js'); 
     				Galleria.run('#galleria');
-					</script>						
+					</script>
+					<script type="text/javascript">
+					function preload(arrayOfImages) {
+    				$(arrayOfImages).each(function(){
+      			  	$('<img/>')[0].src = this;
+        			// Alternatively you could use:
+       				 // (new Image()).src = this;
+    });
+}
+
+// Usage:
+
+preload([
+    '/images/fe-images/weddings/1.jpg',
+    '/images/fe-images/weddings/2.jpg',
+    '/images/fe-images/weddings/3.jpg',    
+    '/images/fe-images/weddings/4.jpg',
+    '/images/fe-images/weddings/5.jpg',
+    '/images/fe-images/weddings/6.jpg',    
+    '/images/fe-images/weddings/7.jpg',
+    '/images/fe-images/weddings/8.jpg',
+    '/images/fe-images/weddings/9.jpg',
+    '/images/fe-images/weddings/10.jpg',
+    '/images/fe-images/weddings/11.jpg',
+    '/images/fe-images/weddings/12.jpg',
+    '/images/fe-images/weddings/13.jpg',
+    '/images/fe-images/weddings/14.jpg',
+    '/images/fe-images/weddings/15.jpg',
+    '/images/fe-images/weddings/16.jpg',
+    '/images/fe-images/weddings/17.jpg',
+    '/images/fe-images/weddings/18.jpg',
+]);
+					</script>												
 				</section>
 				<article class="after-gallery">
 					<h1>wedding pictures</h1>

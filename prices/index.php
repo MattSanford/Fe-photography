@@ -1,3 +1,4 @@
+<?php $pageTitle="<title>Felicia Noelle Photography Prices</title>"?>
 <?php include('../head.php'); ?>
 	<div class="main">
 		<div class="tix-wrap">
@@ -35,12 +36,12 @@
 					</ul>
 				<li><h2 class="total">$200</h2>				
 				</li>
-				<li><h2>main-item</h2>
+				<li><h2>Deluxe Package</h2>
 					<ul class="sub-list list">
 						<li><h4>Multiple Locations</h4></li>
 						<li><h4>Digital Prints</h4></li>
 						<li><h4>30 mile Radius of Richmond</h4></li>
-						<li><h4>Pictures published to Portofolio</h4></li>	
+						<li><h4>Pictures published to Portfolio</h4></li>	
 						<li><h4>Props Provided</h4></li>
 						<li><h4>Multiple Day shoot</h4></li>
 					</ul>

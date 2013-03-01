@@ -1,3 +1,4 @@
+<?php $pageTitle="<title>Contact Felicia Noelle</title>"?>
 <?php include("../head.php") ;?>
 <div class="container">
 	<div class="contact">	

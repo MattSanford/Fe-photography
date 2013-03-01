@@ -430,7 +430,7 @@
         // when to pause auto-cycle
         pause: 'hover',
         // css transition speed (must match css definition)
-        speed: 800
+        speed: 1500
     };
 
     // constructor

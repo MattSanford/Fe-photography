@@ -8,7 +8,7 @@ $font_base2: ElegantHandwriting;
 $webkit: -webkit-; 
 $moz: -moz-;
 $o: -o-;
-
+$blank: "";
 //mixins
 @mixin font($size: 24px, $side: left) {
 	font-family: $font-base;
@@ -59,8 +59,10 @@ p {
 }
 
 body {
+background-image: url("/images/dev-images/bedge_grunge.png");
 margin: 0;
 overflow-x: hidden;
+height: 100%;
 
 }
 label {
@@ -89,10 +91,15 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 }
 
+.social {
+float: left;
+margin: 0 0 0 2%;
+}
+
 .container {
-background-image: url("/images/dev-images/bedge_grunge.png");
 font-weight: normal;
-min-height: 500px;
+padding-top: 10px;
+height: 100%;
 }
 
 	header {
@@ -268,8 +275,7 @@ min-height: 500px;
 		opacity: 0.95;
 		margin: 3% 5% 3% 5%;
 		vertical-align: top;
-
-		text-align: left;
+		text-align: center;
 		#{$moz}box-shadow: 0px 10px 47px #000000;
 		#{$webkit}box-shadow: 0px 10px 47px #000000;
 		box-shadow: 0px 10px 47px #000000;
@@ -280,11 +286,11 @@ min-height: 500px;
 		#{$webkit}animation-timing-function: ease-in;
 		#{$webkit}filter: grayscale(100%);
 		
-			 span {
-		@include font(36px);
-		position: absolute;
+			 h2 {
+		@include font(1.8em);
 		display: block;
-		margin-top: -15px;
+		text-align: center;
+		margin-top: 5px;
 	    text-shadow:0px 2px 11px #ffe3ba;
 	    #{$webkit}animation: margin-slide-down;						/*==============Span slides down onload and*/
 		#{$webkit}animation-duration: 1s;								/*===============when :hover is not activated*/
@@ -330,7 +336,7 @@ min-height: 500px;
 			#{$webkit}animation-timing-function: ease-in;
 			#{$webkit}filter: grayscale(0%);
 
-				&:hover> span {
+				&:hover> h2 {
 			#{$webkit}animation: margin-slide;
 			#{$webkit}animation-duration: .5s;
 			#{$webkit}animation-timing-function: ease-out;
@@ -451,7 +457,7 @@ min-height: 500px;
 
 
 		.clear-fix {
-			clear: left;
+			clear: both;
 		}
 	
 	.after-gallery {
@@ -539,32 +545,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 		font-family: $font_base;
 		font-size: 24px;
 		text-align: center; 
-		position: relative;
 		background-image: url('/images/dev-images/debut_dark.png');
-		min-height: 50px;
 		margin-bottom: 0;
+		padding: 10px;
+			aside {
+				float: left;
+				margin-right:10px;
+			}
 		}
 
 		.bottom-nav {
 			word-spacing: 15px;
 			text-transform: capitalize;
 			font-family: $font_base;
+			margin-left:  auto;
+			margin-right: auto;
+			display: block;
 
 		}
 
-		.t-handle, .t-handle a {
-			color:#CC0000;
+
+
+		.t-handle, .t-handle a, .t-handle:before {
+			color: desaturate(#CC0000, 100%);
 			margin:0;
-			font-family: $font_base;
-			font-size: 24px;
+			@include font(1em);
 
-
+			&:hover {
+				color: saturate(#CC0000, 100%);
+			}
 		}
 		.t-handle:before {
 			content: "Design by: ";
-			color: #fff;
-			font-size: 24px;
-
 		}
 
 /*===============================animations======================*/		
@@ -582,101 +594,117 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 
 				}
 				
+@mixin marginslide($top:5px, $top-then:-250px) {
+
+				from {
+					margin-top: $top;
+				}
+
+				to {
+					margin-top: $top-then;
+
+				}
+}
 
 			@-webkit-keyframes margin-slide {
-
-				from {
-					margin-top: -15px;
-				}
-
-				to{
-					margin-top: -250px;
-
-				}
+				@include marginslide;
 			}
-
 			@-moz-keyframes margin-slide {
-
-				from {
-					margin-top: -15px;
-				}
-
-				to {
-					margin-top: -250px;
-				}
-			}			
+				@include marginslide;
+		}
 			@-o-keyframes margin-slide {
-
-				from {
-					margin-top: -15px;
-				}
-
-				to {
-					margin-top: -250px;
-				}
-			}						
+				@include marginslide;
+		}
 			@keyframes margin-slide {
+				@include marginslide;
 
-				from {
-					margin-top: -15px;
-				}
-
-				to {
-					margin-top: -250px;
-
-				}
 			}
 
+@mixin marginslidedown($top: -250px, $top-then: 5px) {
+
+					from {
+					margin-top: $top;
+				}
+
+				to {
+					margin-top: $top-then;
+
+				}
+}
 
 			@-webkit-keyframes margin-slide-down {
-
-				from {
-					margin-top: -250px;
-				}
-
-				to {
-					margin-top: -15px;
-
-				}
-			}
-
+				@include marginslidedown;
+}
 			@-moz-keyframes margin-slide-down {
-				from {
-					margin-top: -250px;
-				}
+				@include marginslidedown;
 
-				to {
-					margin-top: -15px;
-
-				}
 			}	
 			@-o-keyframes margin-slide-down {
+				@include marginslidedown;
 
-				from {
-					margin-top: -250px;
-				}
-
-				to {
-					margin-top: -15px;
-
-				}
 			}												
 			@keyframes margin-slide-down {
+				@include marginslidedown;
 
-				from {
-					margin-top: -250px;
-				}
-
-				to {
-					margin-top: -15px;
-
-				}
 			}
 
 
 
 	/*=========================Media Queries====================*/
 
+		@media all and (min-width: 1500px){
+
+			.portfolio-thumbnail {
+				height: 400px;
+				width: 600px;
+
+				&:hover > h2 {
+					margin-top: -650px; 
+				}
+				h2 {
+		#{$webkit}animation: margin-slide-down;						/*==============Span slides down onload and*/
+		#{$webkit}animation-duration: 1s;								/*===============when :hover is not activated*/
+		#{$webkit}animation-timing-function: ease-out;
+	    #{$moz}animation: margin-slide-down;
+		#{$moz}animation-duration: 1s;
+		#{$moz}animation-timing-function: ease-out;
+	    -o-animation: margin-slide-down;
+		-o-animation-duration: 1s;
+		-o-animation-timing-function: ease-out;
+		animation: margin-slide-down;
+		animation-duration: 1s;
+		animation-timing-function: ease-out;
+				}
+			}
+			@-webkit-keyframes margin-slide-down {
+				@include marginslidedown($top: 650px);
+}
+			@-moz-keyframes margin-slide-down {
+				@include marginslidedown($top: 650px);
+
+			}	
+			@-o-keyframes margin-slide-down {
+				@include marginslidedown($top: 650px);
+
+			}												
+			@keyframes margin-slide-down {
+				@include marginslidedown($top: 650px);
+
+			}
+			@-webkit-keyframes margin-slide {
+				@include marginslide($top: 650px);
+			}
+			@-moz-keyframes margin-slide {
+				@include marginslide($top: 650px);
+		}
+			@-o-keyframes margin-slide {
+				@include marginslide($top: 650px);
+		}
+			@keyframes margin-slide {
+				@include marginslide($top-then: 650px);
+
+			}
+		}
 
 		@media all and (max-width: 1200px){
 		header{
@@ -687,5 +715,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 		}
 		#golden-tix {
 			display: inline-block;
+		}
+		.quick-look {
+			float: none;
+			margin: 2% auto 0;
+			width: 50%;
+		}
+		.slide {
+			border: none;
 		}
 	}
