@@ -657,51 +657,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 			.portfolio-thumbnail {
 				height: 400px;
 				width: 600px;
-
-				&:hover > h2 {
-					margin-top: -650px; 
-				}
-				h2 {
-		#{$webkit}animation: margin-slide-down;						/*==============Span slides down onload and*/
-		#{$webkit}animation-duration: 1s;								/*===============when :hover is not activated*/
+								h2 {
+		#{$webkit}animation: margin-slide-down1;						/*==============Span slides down onload and*/
+		#{$webkit}animation-duration: .8s;								/*===============when :hover is not activated*/
 		#{$webkit}animation-timing-function: ease-out;
-	    #{$moz}animation: margin-slide-down;
-		#{$moz}animation-duration: 1s;
+	    #{$moz}animation: margin-slide-down1;
+		#{$moz}animation-duration: .8s;
 		#{$moz}animation-timing-function: ease-out;
-	    -o-animation: margin-slide-down;
-		-o-animation-duration: 1s;
+	    -o-animation: margin-slide-down1;
+		-o-animation-duration: .8s;
 		-o-animation-timing-function: ease-out;
-		animation: margin-slide-down;
-		animation-duration: 1s;
+		animation: margin-slide-down1;
+		animation-duration: .8s;
 		animation-timing-function: ease-out;
+
 				}
-			}
-			@-webkit-keyframes margin-slide-down {
-				@include marginslidedown($top: 650px);
+				&:hover > h2 {
+			margin-top: -450px !important; 
+			#{$webkit}animation: margin-slide1;
+			#{$webkit}animation-duration: .8s !important;
+			#{$webkit}animation-timing-function: ease-out;
+			#{$moz}animation: margin-slide1;
+			#{$moz}animation-duration: .8s !important;
+			#{$moz}animation-timing-function: ease-out;
+			-o-animation: margin-slide1;
+			-o-animation-duration: .8s !important;
+			-o-animation-timing-function: ease-out;	
+			animation: margin-slide1;
+			animation-duration: .8s !important;
+			animation-timing-function: ease-out;
+				}
 }
-			@-moz-keyframes margin-slide-down {
-				@include marginslidedown($top: 650px);
+			@-webkit-keyframes margin-slide-down1 {
+				@include marginslidedown($top: -450px);
+}
+			@-moz-keyframes margin-slide-down1 {
+				@include marginslidedown($top: -450px);
 
 			}	
-			@-o-keyframes margin-slide-down {
-				@include marginslidedown($top: 650px);
+			@-o-keyframes margin-slide-down1 {
+				@include marginslidedown($top: -450px);
 
 			}												
-			@keyframes margin-slide-down {
-				@include marginslidedown($top: 650px);
+			@keyframes margin-slide-down1 {
+				@include marginslidedown($top: -450px);
 
 			}
-			@-webkit-keyframes margin-slide {
-				@include marginslide($top: 650px);
+			@-webkit-keyframes margin-slide1 {
+				@include marginslide($top-then: -450px);
 			}
-			@-moz-keyframes margin-slide {
-				@include marginslide($top: 650px);
+			@-moz-keyframes margin-slide1 {
+				@include marginslide($top-then: -450px);
 		}
-			@-o-keyframes margin-slide {
-				@include marginslide($top: 650px);
+			@-o-keyframes margin-slide1 {
+				@include marginslide($top-then: -450px);
 		}
-			@keyframes margin-slide {
-				@include marginslide($top-then: 650px);
+			@keyframes margin-slide1 {
+				@include marginslide($top-then: -450px);
 
 			}
 		}
