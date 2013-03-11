@@ -8,11 +8,11 @@
 /* change the ID & dimensions to match your slider */
 
 #slider {
-	height: 540px;
-	width: 960px; 
+	height: 589px;
+	width: 1040px; 
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
-	overflow-y: auto;
+	overflow-y: hidden;
 	overflow-x: hidden;
 }
 

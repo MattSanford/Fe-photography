@@ -398,6 +398,22 @@ height: 100%;
 				margin: $tix-margin;
 				display: block;
 			}
+
+			ul{
+				li {
+					 button {
+						@include font(2em);
+						padding: 10px;
+						background: #c6c6c6;
+						border: 0;
+						@include border-radius;
+
+						&:hover {
+							color: white;
+						}
+					}
+				}
+			}
 		}
 
 

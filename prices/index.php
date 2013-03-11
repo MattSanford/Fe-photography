@@ -19,7 +19,7 @@
 						<li><h4>Outdoor Location</h4></li>
 					</ul>
 				</li>
-				<li><h2 class="total">$200</h2>
+				<li><button>Click</button>
 				</li>		
 			</ul>
 		</section>	
@@ -46,7 +46,7 @@
 						<li><h4>Multiple Day shoot</h4></li>
 					</ul>
 				</li>
-				<li><h2 class="total">$400</h2>
+				<li><button>Click</button>
 				</li>		
 			</ul>
 		</section>
@@ -74,7 +74,7 @@
 						<li><h4>Wedding Reception</h4></li>
 					</ul>
 				</li>
-				<li><h2 class="total">$800</h2>
+				<li><button>Click</button>
 				</li>		
 			</ul>
 		</section>
@@ -86,4 +86,12 @@
 	</div>
 		<div class="clear-fix"></div>				
 	</div>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('button').on('click', function() {
+			$(this).closest('.main-list').append('<h2 class="total"><a href="/contact">Contact me</a></h2>');
+			$(this).remove();
+		});
+	});
+	</script>
 <?php include('../footer.php'); ?>

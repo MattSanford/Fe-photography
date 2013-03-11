@@ -1,17 +1,5 @@
 <?php $pageTitle="<title>Felicia Noelle Photography</title>"?>
 <?php include('head.php');?>
-<script type="text/javascript">
-if (document.images) {
-    img1 = new Image();
-    img1.src = "/images/fe-images/huntersharlow.jpg";
-    img2 = new Image();
-    img2.src = "/images/fe-images/couples.jpg";
-    img3 = new Image();
-    img3.src = "/images/fe-images/senior.jpg";
-    img4 = new Image();
-    img4.src = "/images/fe-images/wedding.jpg";
-}
-</script>
 			<div class="main">
 			<div class="social">
 				<p><a class="sb circle no-shadow no-border light-gray facebook" href="https://www.facebook.com/FeliciaNoellePhotography">Facebook</a></p>
@@ -19,10 +7,12 @@ if (document.images) {
 				<p><a class="sb circle no-shadow no-border light-gray pinterest" href="http://pinterest.com/felicianoelle/">Pinterest</a></p>
 			</div>
 				 <ul id="slider">
-  					<li><img src="/images/fe-images/newborn/2.jpg"></li>
-					 <li><img src="/images/fe-images/weddings/4.jpg" /></li>
- 					 <li><img src="/images/fe-images/senior/16.jpg"></li>
- 					 <li><img src="/images/fe-images/newborn/6.jpg"></li>
+  					<li><div><img src="/images/slides/1.jpg"></div></li>
+					 <li><div><img src="/images/slides/2.jpg" /></div></li>
+ 					 <li><div><img src="/images/slides/3.jpg"></div></li>
+ 					 <li><div><img src="/images/slides/4.jpg"></div></li>
+ 					 <li><div><img src="/images/slides/5.jpg"></div></li>
+ 					 <li><div><img src="/images/slides/6.jpg"></div></li>
  				</ul>	
  			<div class="quick-look-wrap">	
  				<div class="quick-look testimonials">
@@ -53,6 +43,27 @@ if (document.images) {
  			</div>
 			</div>
 	</div>
+						<script type="text/javascript">
+					function preload(arrayOfImages) {
+    				$(arrayOfImages).each(function(){
+      			  	$('<img/>')[0].src = this;
+        			// Alternatively you could use:
+       				 // (new Image()).src = this;
+    });
+}
+
+// Usage:
+
+preload([
+    '/images/fe-images/newborn/20.jpg',
+    '/images/fe-images/weddings/12.jpg',
+    '/images/fe-images/senior/7.jpg',    
+    '/images/fe-images/weddings/10.jpg',
+    '/images/fe-images/senior/14.jpg',
+    '/images/fe-images/newborn/13.jpg',    
+
+]);
+					</script>	
 <?php include('footer.php');?>
 </body>
 </html>
